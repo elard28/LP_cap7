@@ -12,11 +12,11 @@ int fun()
 int main(int argc, char const *argv[])
 {
 	a = 10;
-	b = a + fun();
+	b = a + fun(); //sale 21
 	printf("With the function call on the right, ");
 	printf(" b is: %d\n", b);
 	a = 10;
-	b = fun() + a;
+	b = fun() + a; //sale 21
 	printf("With the function call on the left, ");
 	printf(" b is: %d\n", b);
 

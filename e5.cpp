@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int fn(int n)
+int fn(int &n)
 {
 	n=n+5;
 	return 5;
