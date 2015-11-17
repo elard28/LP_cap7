@@ -18,7 +18,7 @@ class e4
 		int x=a+fn(a);
 		int y=fn(b)+b;
 
-		System.out.println("x: "+x);
-		System.out.println("y: "+y);
+		System.out.println("x: "+x); //12
+		System.out.println("y: "+y); //12
 	}
 }

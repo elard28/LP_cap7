@@ -19,7 +19,7 @@ int main(int argc, char const *argv[])
     cout <<t6<< endl;
 
 	bool a=1;
-	bool b=0;
+	bool b=1;
 	bool c=0;
 
 	cout<<(a && b || c)<<endl;

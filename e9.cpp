@@ -40,7 +40,7 @@ int main(int argc, char const *argv[])
     	tfloat += (double)(t_fin - t_ini) / CLOCKS_PER_SEC;
 	}
 
-	cout<<"INT:   "<<tint<<endl;
+	cout<<"INT:   "<<tint<<endl; //demora mas
 	cout<<"FLOAT: "<<tfloat<<endl;
 
 	return 0;

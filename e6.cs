@@ -13,8 +13,8 @@ public class e6
 		int a=2;
 		int b=2;
 
-		int x=a+fn(ref a);
-		int y=fn(ref b)+b;
+		int x=a+fn(ref a); //7
+		int y=fn(ref b)+b; //12
 
 		Console.WriteLine("x: "+x);
 		Console.WriteLine("y: "+y);
