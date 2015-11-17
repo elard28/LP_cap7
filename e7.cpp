@@ -20,7 +20,7 @@ float fun2()
 float funp(float *k) 
 {
 	*k += 4;
-	return 3 * (*k) - 1;
+	return (*k) - 1;
 }
 
 int main(int argc, char const *argv[])
