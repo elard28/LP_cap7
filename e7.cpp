@@ -3,11 +3,24 @@
 using namespace std;
 
 float a=10;
+float b=10;
 
 float fun()
 {
 	a=a+3;
 	return a;
+}
+
+float fun2()
+{
+	b=b+3;
+	return b;
+}
+
+float funp(float *k) 
+{
+	*k += 4;
+	return 3 * (*k) - 1;
 }
 
 int main(int argc, char const *argv[])
@@ -18,9 +31,11 @@ int main(int argc, char const *argv[])
 	float x3=3/4*5;
 	float x4=3*5/4;
 	float x5=a*fun();
-	float x6=fun()*a;
-	float x7=a/fun();
-	float x8=fun()/a;
+	float x6=fun2()*b;
+	a=10;
+	b=10;
+	float x7=a*funp(&a);
+	float x8=funp(&b)*b;
 
 	cout<<x1<<endl;
 	cout<<x2<<endl;
