@@ -7,4 +7,4 @@
 6. La funcion tiene igual orden de precedencia y se resuelve de izquierda a dercha por lo que el valor cambia
 7. Tiene mayor precedencia la funcion cuando es pasada por referncia como por puntero
 8. El valor de a cambia en la funcion antes de efectuar la expresion sin importar el orden
-9. Las operaciones con enteros toman ligeramente mas tiempo que las operaciones con flotantes
+9. Las operaciones con enteros toman ligeramente mas tiempo que las operaciones con flotantes (en el caso de mi maquina)
